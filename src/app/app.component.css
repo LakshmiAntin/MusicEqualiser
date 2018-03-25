@@ -1,0 +1,68 @@
+div.panel-primary {
+    position:relative;
+    widows: 50%;
+    height:400px;
+    font-size: 18px;
+    font-family:  "Open Sans", sans-serif, Helvetica, Arial;
+}
+div.panel-primary .panel-body .btn-primary
+{
+    font-size: 18px;
+    font-family:  "Open Sans", sans-serif, Helvetica, Arial;
+    background-color: #447AB2;
+}
+div.panel-primary .panel-body .sliderStyle
+{
+    -webkit-appearance: slider-vertical; 
+    width: 3px;
+    height: 300px;
+    padding: 0 40px;
+    float: left;
+    position:relative;
+}
+div.panel-primary .panel-body .dropDownStyle .hideoption{ 
+     display:none; 
+     visibility:hidden; 
+     height:0; 
+     font-size:0; 
+}
+
+div.panel-primary .panel-body .sliderStyle::-webkit-slider-runnable-track {
+    background:#447AB2; 
+}
+
+div.panel-primary .panel-body .sliderStyle::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+div.panel-primary .panel-body .sliderStyle::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+div.panel-primary .panel-body .sliderStyle::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+div.panel-primary .panel-body .dropDownStyle {
+    padding-top:5px;
+    height:90px;
+    width:150px;
+}
+
